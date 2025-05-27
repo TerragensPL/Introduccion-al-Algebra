@@ -9,8 +9,8 @@
 - Un *conjunto* es una colección de objetos llamados *elementos*, que comparten alguna característica común. Los conjuntos pueden ser finitos o infinitos.
 - Los elementos se escriben entre llaves y separados por comas:
 Ejemplo:
-    - Días de la semana: $\{lunes, martes, miércoles, jueves, viernes, sábado, domingo\}$
-    - Números pares: $\{2, 4, 6, 8, \ldots\}$
+    - Días de la semana: {lunes, martes, miércoles, jueves, viernes, sábado, domingo}
+    - Números pares: {2,4,6,8,…}
 - Notación: Si $a$ es elemento de $A$, se escribe $a \in A$.
 
 **Gráfico:**
