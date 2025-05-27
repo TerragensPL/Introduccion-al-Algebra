@@ -140,7 +140,7 @@ Notación: **|A| o #A**
 
 **Ejemplo:**
 
-- Si A = \{1, 2, 3\}$, entonces |A| = 3$.
+- Si A = {1, 2, 3}, entonces |A| = 3.
 <br><br><br>
 ---
 
