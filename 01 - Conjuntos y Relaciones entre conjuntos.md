@@ -33,19 +33,20 @@ A = {1, 2, 3, 4}
     - **Por extensión (listado):**
         - Días de la semana:
 
-    $$
-    A = {lunes, martes, miércoles, jueves, viernes, sábado, domingo}
-    $$
-             - Lanzamiento de un dado:
+    
+            A = {lunes, martes, miércoles, jueves, viernes, sábado, domingo}
+    
+        - Lanzamiento de un dado:
 
-    $$
-    B = \{1, 2, 3, 4, 5, 6\}
-    $$
+    
+            B = \{1, 2, 3, 4, 5, 6\}
+    
         - Primeras letras del abecedario:
 
-    $$
-    C = \{a, b, c\}
-    $$
+    
+            C = \{a, b, c\}
+    <br>
+
     - **En diagramas de Venn:**
     El conjunto se representa como un óvalo o círculo, y dentro de él se colocan todos los elementos explícitos del conjunto.
     <br><br>
@@ -90,9 +91,9 @@ A = {1, 2, 3, 4}
     - **Por comprensión (regla):**
         - Números naturales pares:
 
-    $$
+    
                 {2n : n ∈ N}
-    $$
+    
 
     Esto se lee como “el conjunto de todos los números de la forma 2n, donde n es un número natural”.
     - **Visualización en diagramas de Venn:**
@@ -133,9 +134,9 @@ Ejemplo:
 ### 4. Cardinal de un conjunto
 
 - El *cardinal* es el número de elementos de un conjunto.
-Notación: $|A|$ o $\#A$
-- Si es finito: $|A| = n$
-- Si es infinito: $∣A∣ = ∞$
+Notación: **|A| o #A**
+- Si es finito: **|A| = n**
+- Si es infinito: **∣A∣ = ∞**
 
 **Ejemplo:**
 
