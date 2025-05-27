@@ -34,7 +34,7 @@ A = {1, 2, 3, 4}
         - Días de la semana:
 
     $$
-    A = \{lunes, martes, miércoles, jueves, viernes, sábado, domingo\}
+    A = {lunes, martes, miércoles, jueves, viernes, sábado, domingo}
     $$
              - Lanzamiento de un dado:
 
@@ -66,8 +66,8 @@ A = {1, 2, 3, 4}
     ### Observaciones importantes
 
     - En un conjunto finito, cada elemento aparece una sola vez y el orden no importa.
-    - El cardinal (número de elementos) es un número natural: por ejemplo, $|A| = 7$ para los días de la semana.
-    - Si el conjunto no tiene elementos, se llama conjunto vacío y se representa como $\emptyset$ o $\{\}$.
+    - El cardinal (número de elementos) es un número natural: por ejemplo, |A| = 7 para los días de la semana.
+    - Si el conjunto no tiene elementos, se llama conjunto vacío y se representa como ∅ o {}.
 
 
 <br>
@@ -82,16 +82,16 @@ A = {1, 2, 3, 4}
     - **Por extensión (listado):**
         - Números naturales pares:
 
-    $$
-    \{2, 4, 6, 8, 10, 12, \ldots\}
-    $$
+    
+                {2, 4, 6, 8, 10, 12, ...}
+    
 
     Aquí, los puntos suspensivos indican que la secuencia continúa indefinidamente[^1].
     - **Por comprensión (regla):**
         - Números naturales pares:
 
     $$
-    \{2n : n \in \mathbb{N}\}
+                {2n : n ∈ N}
     $$
 
     Esto se lee como “el conjunto de todos los números de la forma 2n, donde n es un número natural”.
@@ -117,9 +117,9 @@ A = {1, 2, 3, 4}
 
 **Ejemplo:**
 
-- Conjunto de las vocales: $\{a, e, i, o, u\}$ (finito)
-- Conjunto de números naturales: $\mathbb{N} = \{1, 2, 3, \ldots\}$ (infinito)
-- Conjunto vacío: $\emptyset$<br><br>
+- Conjunto de las vocales: **{a,e,i,o,u}** (finito)
+- Conjunto de números naturales: **N = {1, 2, 3, ...}** (infinito)
+- Conjunto vacío: **∅**<br><br>
 
 
 ### 3. Representación de conjuntos
@@ -127,7 +127,7 @@ A = {1, 2, 3, 4}
 - Por extensión: Listando todos los elementos.
 - Por comprensión: Indicando una propiedad que cumplen los elementos.
 Ejemplo:
-    - $\{x \in \mathbb{N} : x$ es par$\} = \{2, 4, 6, \ldots\}$
+    - **{x ∈ N : x es par} = {2, 4, 6, ...}**
 <br><br>
 
 ### 4. Cardinal de un conjunto
@@ -135,7 +135,7 @@ Ejemplo:
 - El *cardinal* es el número de elementos de un conjunto.
 Notación: $|A|$ o $\#A$
 - Si es finito: $|A| = n$
-- Si es infinito: $|A| = \infty$
+- Si es infinito: $∣A∣ = ∞$
 
 **Ejemplo:**
 
