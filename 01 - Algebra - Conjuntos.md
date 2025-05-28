@@ -67,7 +67,7 @@ A = {1, 2, 3, 4}
   domingo</td></tr>
 </table>
     
-  ## **Observaciones importantes**
+  ### **Observaciones importantes**
   
   - En un conjunto finito, cada elemento aparece una sola vez y el orden no importa.
   - El cardinal (número de elementos) es un número natural: por ejemplo, |A| = 7 para los días de la semana1.
