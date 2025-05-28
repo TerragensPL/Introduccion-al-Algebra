@@ -67,14 +67,15 @@ A = {1, 2, 3, 4}
   domingo</td></tr>
 </table>
     
-    ## **Observaciones importantes**
-    
-    - En un conjunto finito, cada elemento aparece una sola vez y el orden no importa.
-    - El cardinal (número de elementos) es un número natural: por ejemplo, |A| = 7 para los días de la semana1.
-    - Si el conjunto no tiene elementos, se llama conjunto vacío y se representa como **∅** ó **{}**
-    
-    ---
-    
+  ## **Observaciones importantes**
+  
+  - En un conjunto finito, cada elemento aparece una sola vez y el orden no importa.
+  - El cardinal (número de elementos) es un número natural: por ejemplo, |A| = 7 para los días de la semana1.
+  - Si el conjunto no tiene elementos, se llama conjunto vacío y se representa como **∅** ó **{}**
+  
+  ---
+  <br>
+
 - ***Conjunto infinito***: Tiene infinitos elementos (por ejemplo, el conjunto de todos los números naturales).
     
     Un conjunto infinito se representa gráficamente de manera similar a un conjunto finito, pero con una notación que indica que la colección de elementos no termina. Generalmente, esto se hace usando puntos suspensivos (…) o una expresión matemática que describe la regla de formación del conjunto.
