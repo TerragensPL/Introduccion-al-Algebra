@@ -48,17 +48,24 @@ A = {1, 2, 3, 4}
         
         El conjunto se representa como un óvalo o círculo, y dentro de él se colocan todos los elementos explícitos del conjunto.
         
-        `+------------------+
-        |   A              |
-        |  lunes           |
-        |  martes          |
-        |  miércoles       |
-        |  jueves          |
-        |  viernes         |
-        |  sábado          |
-        |  domingo         |
-        +------------------+`
-        
+ <table>
+  <td>A</td>
+  <tr><td>
+
+  lunes
+
+  martes
+
+  miércoles
+
+  jueves
+
+  viernes
+
+  sábado
+
+  domingo</td></tr>
+</table>
     
     ## **Observaciones importantes**
     
@@ -97,11 +104,19 @@ A = {1, 2, 3, 4}
     
     ## **Ejemplo visual sencillo:**
     
-    `A = {2, 4, 6, 8, ...}
-    +-----------------+
-    |    A            |
-    |  2, 4, 6, ...   |
-    +-----------------+`
+    A = {2, 4, 6, 8, ...}
+
+
+    <table>
+  <td>A</td>
+  <tr><td>
+    2,
+    4,
+    6,
+    ...
+  </td></tr>
+  </table>
+ 
     
     En resumen, la clave para representar un conjunto infinito es usar puntos suspensivos o una expresión matemática general, ya que no es posible listar todos sus elementos.
     
@@ -175,12 +190,20 @@ A = {1, 2, 3, 4}
 
 Diagrama de Venn mostrando **A ⊆ B**:
 
-`+---------------------+
-|         B           |
-|   +---------+       |
-|   |    A    |       |
-|   +---------+       |
-+---------------------+`
+<table>
+  <tr>
+    <td>
+      B
+      <table>
+        <tr>
+          <td>A</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
 
 ---
 
@@ -243,15 +266,27 @@ Esto significa que si todos los elementos de **A** están en **B**, y todos l
 
 **Resumen gráfico (Diagrama de Venn para transitividad):**
 
-`+---------------------+
-|         C           |
-|   +---------+       |
-|   |    B    |       |
-|   |  +---+  |       |
-|   |  | A |  |       |
-|   |  +---+  |       |
-|   +---------+       |
-+---------------------+`
+<table>
+  <tr>
+    <td>
+      C
+      <table border="1" style="margin: auto;">
+        <tr>
+          <td>
+            B
+            <table border="1" style="margin: auto;">
+              <tr>
+                <td>A</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
 
 Aquí, el círculo de **A** está dentro de **B**, y **B** está dentro de **C**, por lo que **A** está dentro de **C**.
 
@@ -315,21 +350,44 @@ Ambos conjuntos tienen los mismos elementos, así que **A = B**.
 
 Diagrama de Venn para la cadena de inclusión:
 
-`+---------------------------------------------------+
-|                   C (Complejos)                   |
-|   +-------------------------------------------+   |
-|   |                R (Reales)                 |   |
-|   |   +-------------------------------+       |   |
-|   |   |      Q (Racionales)           |       |   |
-|   |   |   +-------------------+       |       |   |
-|   |   |   | Z (Enteros)       |       |       |   |
-|   |   |   |   +---------+     |       |       |   |
-|   |   |   |   | N       |     |       |       |   |
-|   |   |   |   +---------+     |       |       |   |
-|   |   |   +-------------------+       |       |   |
-|   |   +-------------------------------+       |   |
-|   +-------------------------------------------+   |
-+---------------------------------------------------+`
+
+<table border="1">
+  <tr>
+    <td>
+      C (Complejos)
+      <table border="1" style="margin: auto;">
+        <tr>
+          <td>
+            R (Reales)
+            <table border="1" style="margin: auto;">
+              <tr>
+                <td>
+                  Q (Racionales)
+                  <table border="1" style="margin: auto;">
+                    <tr>
+                      <td>
+                        Z (Enteros)
+                        <table border="1" style="margin: auto;">
+                          <tr>
+                            <td>
+                              N (Naturales)
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
 
 ---
 
