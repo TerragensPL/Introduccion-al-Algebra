@@ -54,7 +54,7 @@ Los números primos constituyen los "átomos" de la aritmética, siendo elemento
 
 **Criba de Eratóstenes**: Este algoritmo clásico permite encontrar todos los números primos menores que un número dado **n**. Se comienza listando todos los números del 2 al **n**, luego se marcan los múltiplos de cada primo encontrado. Los números que quedan sin marcar son primos. Este método ilustra la distribución de los primos y su densidad decreciente.
 
-**Máximo Común Divisor y Mínimo Común Múltiplo**: El máximo común divisor (MCD) de dos números es el mayor número que divide a ambos. Se puede calcular usando el algoritmo de Euclides: para encontrar **MCD(a,b)**, dividimos **a** por **b** y aplicamos el algoritmo recursivamente con **b** y el resto. El mínimo común múltiplo (MCM) se relaciona con el MCD mediante la fórmula $$\text{MCM}(a, b) = \frac{a \times b}{\text{MCD}(a, b)}$$.
+**Máximo Común Divisor y Mínimo Común Múltiplo**: El máximo común divisor (MCD) de dos números es el mayor número que divide a ambos. Se puede calcular usando el algoritmo de Euclides: para encontrar **MCD(a,b)**, dividimos **a** por **b** y aplicamos el algoritmo recursivamente con **b** y el resto. El mínimo común múltiplo (MCM) se relaciona con el MCD mediante la fórmula $$\mathbb{Z}_n = \{[0]_n, [1]_n, \dots, [n-1]_n \}$$.
 
 ---
 
@@ -68,7 +68,7 @@ La aritmética modular representa un cambio de paradigma en la forma de entender
 
 **Propiedades de las Congruencias**: Las congruencias preservan las operaciones básicas. Si **a≡b(modn)** y **c≡d(modn)**, entonces **a+c≡b+d(modn)** y **ac≡bd(modn**). Esta propiedad permite realizar cálculos complejos trabajando solo con los restos, simplificando enormemente los cálculos.
 
-**Clases de Equivalencia**: El conjunto de todos los números congruentes a **a** módulo **n** forma una clase de equivalencia, denotada $a_n$ .Por ejemplo, para **n=5**, la clase  $[1]_5$contiene todos los números de la forma **5k+2: {..., -8, -3, 2, 7, 12, 17, ...}**. El conjunto  $\mathbb{Z}_n = \{_n,_n,  \dots, [n-1]_n \}$ forma el conjunto de todas las clases de equivalencia módulo **n.**
+**Clases de Equivalencia**: El conjunto de todos los números congruentes a **a** módulo **n** forma una clase de equivalencia, denotada $a_n$ .Por ejemplo, para **n=5**, la clase$$ [1]_5$$contiene todos los números de la forma **5k+2: {..., -8, -3, 2, 7, 12, 17, ...}**. El conjunto  $\mathbb{Z}_n = \{_n,_n,  \dots, [n-1]_n \}$ forma el conjunto de todas las clases de equivalencia módulo **n.**
 
 ---
 
