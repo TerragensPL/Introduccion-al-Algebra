@@ -1,11 +1,11 @@
-# Aritmética entera y modular
+# Aritmética ntera y modular
 
 # **Aritmética Entera y Modular: Cuerpos Finitos**
 
 Este tema constituye uno de los pilares fundamentales del álgebra moderna, abarcando desde los conceptos básicos de divisibilidad hasta las estructuras algebraicas más complejas como los cuerpos finitos. La aritmética entera nos proporciona las herramientas para comprender cómo funcionan los números enteros y sus propiedades, mientras que la aritmética modular introduce un sistema de cálculo que resulta esencial en criptografía, teoría de códigos y muchas otras aplicaciones computacionales1.
 
 ## **Fundamentos de la Aritmética Entera**
-
+ 
 ## **Conceptos Básicos y Divisibilidad**
 
 La aritmética entera se centra en el estudio de los números enteros y sus propiedades fundamentales. El concepto de divisibilidad constituye la base de toda esta teoría y debe entenderse desde sus fundamentos más elementales.
@@ -50,11 +50,11 @@ Los números primos constituyen los "átomos" de la aritmética, siendo elemento
 
 **Definición y Propiedades Básicas**: Un número primo es un número natural mayor que 1 que tiene exactamente dos divisores positivos: 1 y él mismo. Los primeros números primos son 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, etc. El número 2 es el único número primo par, ya que todos los demás números pares son divisibles por 2.
 
-**Teorema Fundamental de la Aritmética**: Este teorema establece que todo número entero mayor que 1 puede expresarse de manera única como producto de números primos (considerando el orden de los factores). Por ejemplo, $$60 = 2^2 \times 3 \times 5$$. Esta factorización única es fundamental para muchos algoritmos y demostraciones en matemáticas.
+**Teorema Fundamental de la Aritmética**: Este teorema establece que todo número entero mayor que 1 puede expresarse de manera única como producto de números primos (considerando el orden de los factores). Por ejemplo, $60 = 2^2 * 3 * 5$. Esta factorización única es fundamental para muchos algoritmos y demostraciones en matemáticas.
 
 **Criba de Eratóstenes**: Este algoritmo clásico permite encontrar todos los números primos menores que un número dado **n**. Se comienza listando todos los números del 2 al **n**, luego se marcan los múltiplos de cada primo encontrado. Los números que quedan sin marcar son primos. Este método ilustra la distribución de los primos y su densidad decreciente.
 
-**Máximo Común Divisor y Mínimo Común Múltiplo**: El máximo común divisor (MCD) de dos números es el mayor número que divide a ambos. Se puede calcular usando el algoritmo de Euclides: para encontrar **MCD(a,b)**, dividimos **a** por **b** y aplicamos el algoritmo recursivamente con **b** y el resto. El mínimo común múltiplo (MCM) se relaciona con el MCD mediante la fórmula $$\mathbb{Z}_n = \{[0]_n, [1]_n, \dots, [n-1]_n \}$$.
+**Máximo Común Divisor y Mínimo Común Múltiplo**: El máximo común divisor (MCD) de dos números es el mayor número que divide a ambos. Se puede calcular usando el algoritmo de Euclides: para encontrar **MCD(a,b)**, dividimos **a** por **b** y aplicamos el algoritmo recursivamente con **b** y el resto. El mínimo común múltiplo (MCM) se relaciona con el MCD mediante la fórmula $\text{MCM}(a, b) = \frac{a \times b}{\text{MCD}(a, b)}$.
 
 ---
 
@@ -68,7 +68,7 @@ La aritmética modular representa un cambio de paradigma en la forma de entender
 
 **Propiedades de las Congruencias**: Las congruencias preservan las operaciones básicas. Si **a≡b(modn)** y **c≡d(modn)**, entonces **a+c≡b+d(modn)** y **ac≡bd(modn**). Esta propiedad permite realizar cálculos complejos trabajando solo con los restos, simplificando enormemente los cálculos.
 
-**Clases de Equivalencia**: El conjunto de todos los números congruentes a **a** módulo **n** forma una clase de equivalencia, denotada $a_n$ .Por ejemplo, para **n=5**, la clase$$ [1]_5$$contiene todos los números de la forma **5k+2: {..., -8, -3, 2, 7, 12, 17, ...}**. El conjunto  $\mathbb{Z}_n = \{_n,_n,  \dots, [n-1]_n \}$ forma el conjunto de todas las clases de equivalencia módulo **n.**
+**Clases de Equivalencia**: El conjunto de todos los números congruentes a **a** módulo **n** forma una clase de equivalencia, denotada $a_n$ .Por ejemplo, para **n=5**, la clase  $[1]_5$contiene todos los números de la forma **5k+2: {..., -8, -3, 2, 7, 12, 17, ...}**. El conjunto  $\mathbb{Z}_n = \{_n,_n,  \dots, [n-1]_n \}$ forma el conjunto de todas las clases de equivalencia módulo **n.**
 
 ---
 
@@ -90,7 +90,7 @@ Los cuerpos finitos representan estructuras algebraicas donde cada elemento no n
 
 **Definición de Cuerpo**: Un cuerpo es un anillo donde todo elemento no nulo es inversible. Esto significa que podemos dividir por cualquier elemento no nulo. Los números racionales **Q**, reales **R** y complejos **C** son ejemplos de cuerpos infinitos.
 
-**Cuerpos** $$Z_p$$ ****: Cuando p es un número primo, $$Z_p$$ forma un cuerpo. Esto ocurre porque cuando **p** es primo, **MCD(a,p)=1** para todo **a** con **1≤a≤p−1**, garantizando que todos los elementos no nulos tengan inverso. Por ejemplo, en $$Z_5$$, el inverso de 2 es 3 porque **2⋅3=6≡1(mod5)**.
+**Cuerpos** $Z_p$ ****: Cuando p es un número primo, $Z_p$ forma un cuerpo. Esto ocurre porque cuando **p** es primo, **MCD(a,p)=1** para todo **a** con **1≤a≤p−1**, garantizando que todos los elementos no nulos tengan inverso. Por ejemplo, en $Z_5$, el inverso de 2 es 3 porque **2⋅3=6≡1(mod5)**.
 
 **Propiedades de los Cuerpos Finitos**: Los cuerpos finitos tienen propiedades únicas. Para cualquier primo **p** y entero positivo **n,** existe un único cuerpo finito (salvo isomorfismo) con $p^n$ elementos, denotado $f_p{^n}$ o **GF($p^n$)**. Cuando **n=1**, obtenemos $Z_p$.
 
@@ -104,7 +104,7 @@ Los cuerpos finitos representan estructuras algebraicas donde cada elemento no n
 
 Las ecuaciones de congruencia representan una generalización natural de las ecuaciones lineales al contexto modular, requiriendo nuevas técnicas de resolución.
 
-**Ecuaciones de la Forma *ax≡b(mod n):*** Para resolver esta ecuación, necesitamos encontrar el inverso multiplicativo de **a** módulo **n**, lo cual es posible si y solo si **MCD(a,n)=1**. Si existe el inverso **$a^{−1}$**, entonces **x≡a$$^{−1}$$b(mod n).**
+**Ecuaciones de la Forma *ax≡b(mod n):*** Para resolver esta ecuación, necesitamos encontrar el inverso multiplicativo de **a ****módulo **n**, lo cual es posible si y solo si **MCD(a,n)=1**. Si existe el inverso **$a^{−1}$**, entonces **x≡a$^{−1}$b(mod n).**
 
 **Algoritmo Extendido de Euclides**: Este algoritmo no solo calcula el MCD de dos números, sino que también encuentra coeficientes enteros **s** y **t** tales que **MCD(a,n)=sa+tn**. Si **MCD(a,n)=1**, entonces **s** es el inverso de **a** módulo **n**.
 
@@ -124,6 +124,6 @@ Este teorema clásico proporciona una herramienta poderosa para resolver sistema
 
 ---
 
-## **Conclusión**
+## **Conclusión** 
 
 La aritmética entera y modular constituye un campo fundamental que conecta conceptos elementales con estructuras algebraicas sofisticadas. Desde los principios básicos de divisibilidad hasta la construcción de cuerpos finitos, estos conceptos forman la base teórica de numerosas aplicaciones en matemáticas, informática y criptografía. La comprensión profunda de estos temas requiere dominar tanto los aspectos computacionales como los fundamentos teóricos, proporcionando las herramientas necesarias para abordar problemas más avanzados en álgebra abstracta y sus aplicaciones. El dominio de la aritmética modular y las estructuras algebraicas asociadas abre las puertas a campos especializados como la criptografía de clave pública, la teoría de códigos y el álgebra computacional, demostrando la relevancia continua de estos conceptos clásicos en las matemáticas modernas.
