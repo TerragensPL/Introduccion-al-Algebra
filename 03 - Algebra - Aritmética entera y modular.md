@@ -124,6 +124,6 @@ Este teorema clásico proporciona una herramienta poderosa para resolver sistema
 
 ---
 
-## **Conclusión** 
+## **Conclusión**  
 
 La aritmética entera y modular constituye un campo fundamental que conecta conceptos elementales con estructuras algebraicas sofisticadas. Desde los principios básicos de divisibilidad hasta la construcción de cuerpos finitos, estos conceptos forman la base teórica de numerosas aplicaciones en matemáticas, informática y criptografía. La comprensión profunda de estos temas requiere dominar tanto los aspectos computacionales como los fundamentos teóricos, proporcionando las herramientas necesarias para abordar problemas más avanzados en álgebra abstracta y sus aplicaciones. El dominio de la aritmética modular y las estructuras algebraicas asociadas abre las puertas a campos especializados como la criptografía de clave pública, la teoría de códigos y el álgebra computacional, demostrando la relevancia continua de estos conceptos clásicos en las matemáticas modernas.
