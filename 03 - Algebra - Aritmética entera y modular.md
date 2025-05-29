@@ -54,7 +54,28 @@ Los números primos constituyen los "átomos" de la aritmética, siendo elemento
 
 **Criba de Eratóstenes**: Este algoritmo clásico permite encontrar todos los números primos menores que un número dado **n**. Se comienza listando todos los números del 2 al **n**, luego se marcan los múltiplos de cada primo encontrado. Los números que quedan sin marcar son primos. Este método ilustra la distribución de los primos y su densidad decreciente.
 
-**Máximo Común Divisor y Mínimo Común Múltiplo**: El máximo común divisor (MCD) de dos números es el mayor número que divide a ambos. Se puede calcular usando el algoritmo de Euclides: para encontrar **MCD(a,b)**, dividimos **a** por **b** y aplicamos el algoritmo recursivamente con **b** y el resto. El mínimo común múltiplo (MCM) se relaciona con el MCD mediante la fórmula ${MCM}(a, b) = \frac{a * b}{MCD}(a, b)}$.
+**Máximo Común Divisor y Mínimo Común Múltiplo**: El máximo común divisor (MCD) de dos números es el mayor número que divide a ambos. Se puede calcular usando el algoritmo de Euclides: para encontrar **MCD(a,b)**, dividimos **a** por **b** y aplicamos el algoritmo recursivamente con **b** y el resto. El mínimo común múltiplo (MCM) se relaciona con el MCD mediante la fórmula 
+MCM
+(
+a
+,
+b
+)
+=
+a
+×
+b
+MCD
+(
+a
+,
+b
+)
+MCM(a,b)= 
+MCD(a,b)
+a×b
+​
+ ﻿..
 
 ---
 
