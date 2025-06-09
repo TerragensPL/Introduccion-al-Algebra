@@ -4,7 +4,7 @@
 Este archivo contiene mis apuntes de álgebra, incluyendo conceptos fundamentales, ejemplos prácticos y estrategias de resolución de problemas matemáticos. 🧩  
 
 🎯 **Objetivo:**  
-El propósito de estos apuntes es proporcionar una referencia clara y organizada para el estudio del álgebra, facilitando el aprendizaje mediante explicaciones detalladas y ejercicios aplicados. 🚀  
+El propósito de estos apuntes es proporcionar una referencia clara y organizada para el estudio del álgebra, facilitando el aprendizaje mediante explicaciones detalladas y ejercicios aplicados.   
 
 🛠️ **Uso y Contribuciones:**  
 ✔️ Puedes utilizar estos apuntes para reforzar tus conocimientos en álgebra.  
